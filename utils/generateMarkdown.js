@@ -36,8 +36,8 @@ function generateMarkdown(userAnswer, userInfo) {
   if (userAnswer.installation !== "") {
 
     exampleMarkdown +=
-     
-    `
+
+      `
   ## Installation
   
   ${userAnswer.installation}
@@ -56,24 +56,43 @@ function generateMarkdown(userAnswer, userInfo) {
   `
   }
 
-  if (userAnswer.contribution !== ""){
+  if (userAnswer.contribution !== "") {
     exampleMarkdown +=
-    `
+      `
   ## Contributing
   
   ${userAnswer.contribution}
   
   `
-    
+
   }
 
   exampleMarkdown +=
-  `
+    `
   ## License
   
   ${userAnswer.license}
   
   `
+
+  let questions = 
+  
+  `
+  ## Questions?
+  
+  If you have any questions, please contact me with the information below:
+
+  Github [@${userInfo.login}](${userInfo.url})
+  `
+  if (userInfo.email !== null){
+    exampleMarkdown +=
+    `
+    Email: ${userInfo.email}`
+  }
+
+  exampleMarkdown += questions
+
+  return exampleMarkdown
 
 }
 
