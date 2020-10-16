@@ -14,7 +14,7 @@ function generateMarkdown(userAnswer, userInfo) {
 
   if (userAnswer.contribution !== "") {
     tableOfContents += `
-  * [Contributing](#contribution)`
+  * [Contribution](#contribution)`
   }
 
   let exampleMarkdown =
@@ -59,7 +59,7 @@ function generateMarkdown(userAnswer, userInfo) {
   if (userAnswer.contribution !== "") {
     exampleMarkdown +=
       `
-  ## Contributing
+  ## Contribution
   
   ${userAnswer.contribution}
   
