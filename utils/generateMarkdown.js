@@ -82,7 +82,7 @@ function generateMarkdown(userAnswer, userInfo) {
   
   If you have any questions, please contact me with the information below:
 
-  Github [@${userInfo.login}](${userInfo.url})
+  Github [@${userInfo.login}](${userInfo.html_url})
   `
   if (userInfo.email !== null){
     exampleMarkdown +=

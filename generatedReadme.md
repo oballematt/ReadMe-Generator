@@ -1,5 +1,5 @@
 # ReadMe Generator
-  (https://img.shields.io/github/languages/top/oballematt/CLI-readme?style=flat&logo=appveyor) 
+  (https://img.shields.io/github/languages/top/oballematt/ReadMe-Generator?style=flat&logo=appveyor) 
   
 
   ## Description
@@ -35,5 +35,5 @@
   
   If you have any questions, please contact me with the information below:
 
-  Github [@oballematt](https://api.github.com/users/oballematt)
+  Github [@oballematt](https://github.com/oballematt)
   
