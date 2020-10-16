@@ -17,9 +17,11 @@ Any developer may contribute to this project to increase the functionality!
 For any questions you may have
 
 please email me at: 
+
 oballematt@gmail.com
 
-or visist my github
+or visit my github:
+
 github.com/oballematt
 
 
