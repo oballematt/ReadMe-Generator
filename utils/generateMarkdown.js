@@ -18,8 +18,9 @@ function generateMarkdown(userAnswer, userInfo) {
   }
 
   let exampleMarkdown =
-    `# ${userAnswer.title}
-  (https://img.shields.io/github/languages/top/${userAnswer.username}/${userAnswer.repository}?style=flat&logo=appveyor) 
+  `# ${userAnswer.title}
+  
+  ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/${userAnswer.username}/${userAnswer.repository}?style=flat&logo=appveyor) 
   
 
   ## Description
